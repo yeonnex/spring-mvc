@@ -55,4 +55,11 @@ public class RequestParamController {
         System.out.println(data);
         return "ok";
     }
+
+    @ResponseBody
+    @GetMapping("/model-attribute-v2")
+    public String modelAttributeV2(HelloData data) {
+        System.out.println(data);
+        return "ok";
+    }
 }
